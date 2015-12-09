@@ -37,7 +37,7 @@ var App = function(){
 
         t.describe("desc",.8,"#blog-desc");
 
-        t.write("desc:不疯魔，不成活。");
+        t.write("desc:Only the paranoid survive.");
     }
 
 	return {
