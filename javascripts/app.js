@@ -37,7 +37,7 @@ var App = function(){
 
         t.describe("desc",.8,"#blog-desc");
 
-        t.write("desc:Do have faith in what you're doing.");
+        t.write("desc:不疯魔，不成活。");
     }
 
 	return {
