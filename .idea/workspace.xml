@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750d5fe6-866c-4e75-83e4-ee31f499abb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5-learning/index.html" afterPath="$PROJECT_DIR$/html5-learning/index.html" />
+    <list default="true" id="01247a53-758d-4358-b821-d3eebe36b19a" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\github\blog\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_animation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_appearance.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_background-image.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_background.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_border-image.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_border-radius.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_box-sizing.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_flex-box.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_font-face.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_hidpi-media-query.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_image-rendering.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_keyframes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_linear-gradient.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_perspective.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_placeholder.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_radial-gradient.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_transform.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_transition.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\0e682265881e803996d8fe9c60f5e589ddaecb70\_user-select.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_font-family.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_hide-text.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_html5-input-types.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_position.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_prefixer.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_retina-image.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_timing-functions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\148c4fd16cb52dbd9b178a6273e2110567812246\_triangle.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_compact.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_deprecated-webkit-gradient.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_flex-grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_grid-width.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_linear-gradient.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_modular-scale.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_px-to-em.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_radial-gradient.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_render-gradients.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_tint-shade.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\9c58282c5f1a8b60100c232918aa33fc412f9788\_transition-property-name.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\bb3d7c8343e88880808781638da2659db9bb5083\_bourbon-deprecated-upcoming.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\bb3d7c8343e88880808781638da2659db9bb5083\_bourbon.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\c569c383f53ac15d40eb1e6707e554f8ace03827\responsive.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\.sass-cache\c569c383f53ac15d40eb1e6707e554f8ace03827\style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\about.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\html5-learning\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\404.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\background.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\fav.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\line.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\og.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\plbj.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\scribble.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\scribble2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\images\scribble3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\javascripts\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\javascripts\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\javascripts\jquery.particleground.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\javascripts\nprogress.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\javascripts\theater.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\life.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\params.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\duoshuo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\github-light.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\nprogress.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\blog\stylesheets\syntax.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,78 +101,29 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="blog" />
+    <favorites_list name="blog">
+      <favorite_root url="file://$PROJECT_DIR$/images/avatar.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.172413">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html5-learning/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5069204">
-              <caret line="243" column="43" selection-start-line="243" selection-start-column="43" selection-end-line="243" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="life.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/life.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="62.42857">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.178572">
-              <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
+            <state vertical-scroll-proportion="0.37543252">
+              <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Html5" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,13 +131,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/shell-string-operations/index.html" />
-        <option value="$PROJECT_DIR$/life.html" />
+        <option value="$PROJECT_DIR$/js/base.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/javascripts/app.js" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/html5-learning/index.html" />
       </list>
     </option>
   </component>
@@ -119,7 +146,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -173,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,23 +214,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html5-learning" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -237,12 +262,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
       <method />
     </configuration>
   </component>
@@ -252,34 +271,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="750d5fe6-866c-4e75-83e4-ee31f499abb8" name="Default" comment="" />
-      <created>1449669099998</created>
+      <changelist id="01247a53-758d-4358-b821-d3eebe36b19a" name="Default" comment="" />
+      <created>1449999920026</created>
       <option name="number" value="Default" />
-      <updated>1449669099998</updated>
+      <updated>1449999920026</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -298,7 +317,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://D:/webspace/frame/201505121725/201505121725/js/common.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21947195">
+          <caret line="4" column="450" selection-start-line="4" selection-start-column="450" selection-end-line="4" selection-end-column="450" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../share/dist/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6270627">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../share/dist/js/teamIntroduction/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -306,83 +343,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/life.html">
+    <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.178572">
-          <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="62.42857">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6270627">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.172413">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5-learning/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5069204">
-          <caret line="243" column="43" selection-start-line="243" selection-start-column="43" selection-end-line="243" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.37543252">
+          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
