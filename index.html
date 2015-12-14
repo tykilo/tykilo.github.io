@@ -10,11 +10,17 @@
  	<!-- styleshhet -->
   </head>
   <body data-spy="scroll" data-target=".navbar-collapse">
+  <!-- preloader section -->
+  <div id="preloader">
+    <div id="spinner">
+    </div>
+  </div>
+  <!-- header-->
   <header>
     <div class="container">
       <div class="row">
-        <div class="center-block">
-          <img src="/images/avatar.jpg" class="img-responsive img-circle" alt="Responsive image">
+        <div class="col-md-12 col-sm-12">
+          <img src="/images/avatar.jpg" class="img-responsive img-circle tm-border" alt="唐悦的头像">
         </div>
         <hr>
         <h1 class="shadow bold text-center">我是<span class="tm-color">唐悦</span> </h1>
@@ -26,7 +32,7 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="intro">
-          <h2 class="tm-color text-center">个人简介</h2>
+          <h2 class="white text-center">个人简介</h2>
           <div class="intro-content">
             <h3 class="education text-center">信息工程  上海交通大学</h3>
             <p style="text-indent: 2em">我叫唐悦，目前大三在读，机缘巧合之下走上了网页开发的道路。相较于后端框架的编写，我更喜欢能够让我的代码直观展现在众人眼前的前端部分，目前正处于学习的阶段。</p>
@@ -35,7 +41,7 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="skill">
-          <h2 class="white text-center">技能评测</h2>
+          <h2 class="tm-color text-center">技能评测</h2>
           <strong>HTML+CSS+JS</strong>
           <div class="progress">
             <span class="progressbar-back-text">60%</span>
@@ -60,6 +66,17 @@
   </section>
   <section class="container">
     <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="event">
+          <h2 class="tm-color text-center">校园经历</h2>
+          <div class="event-content">
+            <ul>
+              <li>2014年上海国际青少年科技博览会志愿者&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;2014.07</li>
+              <li>2013年上海国际马拉松赛志愿者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2013.12</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="col-md-5 col-sm-12">
         <div class="experience">
           <h2 class="white text-center">项目经历</h2>
@@ -73,25 +90,14 @@
           </div>
         </div>
       </div>
-      <div class="col-md-7 col-sm-12">
-        <div class="event">
-          <h2 class="tm-color text-center">校园经历</h2>
-          <div class="event-content">
-            <ul>
-              <li>2014年上海国际青少年科技博览会志愿者&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;2014.07</li>
-              <li>2013年上海国际马拉松赛志愿者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2013.12</li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <section class="container">
-    <h1 class="tm-color text-center">Contact Me!</h1>
+    <h1 class="white text-center">Contact Me!</h1>
     <div class="row">
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-5 col-sm-12">
         <div class="contact">
-          <h4 class="text-center">联系方式</h4>
+          <h2 class="text-center">联系方式</h2>
           <hr>
           <ul>
             <li><span class="glyphicon glyphicon-map-marker"></span> 东川路800号，上海交通大学</li>
@@ -100,9 +106,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-8 col-sm-12">
-        <h4 class="text-center">Contact Now!</h4>
+      <div class="col-md-7 col-sm-12">
+        <h2 class="tm-color text-center">Contact Now!</h2>
         <hr>
+        <!--
         <div class="row">
           <div class="col-sm-5">
             <div class="input-group input-group-sm">
@@ -119,15 +126,57 @@
         </div>
         <div class="controls">
           <div class="textarea">
-            <textarea type="text" class="form-control" placeholder="您的留言"></textarea>
+            <textarea rows="5" class="form-control" placeholder="您的留言"></textarea>
           </div>
         </div>
+        -->
+
+          <form class="form-inline">
+            <div class="row">
+              <div class="message">
+              <div class="form-group ">
+                <label class="sr-only" for="user">您的姓名</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="user" placeholder="您的姓名">
+                </div>
+              </div>
+              <div class="form-group ">
+                <label class="sr-only" for="email">您的邮箱</label>
+                <div class="col-sm-5">
+                  <input type="email" class="form-control" id="email" placeholder="您的邮箱">
+                </div>
+              </div>
+            </div>
+              </div>
+          </form>
+          <div class="form-group">
+            <label for="text" class="sr-only">您的留言</label>
+            <textarea class="form-control" rows="5"  placeholder="您的留言" id="text"></textarea>
+          </div>
+        <div class="row">
+          <div class="col-sm-offset-3 col-sm-1">
+            <input type="reset" name="reset" value="重置" class="btn btn-danger">
+          </div>
+          <div class="col-sm-offset-1 col-sm-1">
+            <input type="submit" name="submit" value="发送" class="btn btn-primary">
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+    </div>
+</section>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <p class="text-center">Copyright &copy; Carlyle Tang</p>
+        </div>
+      </div>
+    </div>
+</footer>
 
 
-
-  <!-- js-->
+<!-- js-->
   <script src="js/base.js"></script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
