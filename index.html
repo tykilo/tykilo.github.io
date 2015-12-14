@@ -12,11 +12,13 @@
  	<!-- styleshhet -->
   </head>
   <body data-spy="scroll" data-target=".navbar-collapse">
-  <!-- preloader section
-  <div id="preloader">
-    <div id="spinner">
+  <!-- preloader section-->
+  <div class="preloader">
+    <div class="sk-spinner sk-spinner-wordpress">
+      <span class="sk-inner-circle"></span>
     </div>
-  </div>-->
+  </div>
+
   <!-- header-->
   <header>
     <div class="container">
@@ -43,22 +45,20 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="skill">
-          <h2 class="tm-color text-center">技能评测</h2>
+          <h2 class="tm-color text-center" id="skill-progress">技能评测</h2>
           <strong>HTML+CSS+JS</strong>
+
           <div class="progress">
-            <span class="progressbar-back-text">60%</span>
             <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60" data-transitiongoal="60" aria-valuenow="60" style="width: 60%;">
             </div>
           </div>
           <strong>BOOTSTRAP</strong>
           <div class="progress">
-            <span class="progressbar-back-text">65%</span>
             <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="65" data-transitiongoal="65" aria-valuenow="65" style="width: 65%;">
             </div>
           </div>
           <strong>angularjs</strong>
           <div class="progress">
-            <span class="progressbar-back-text">60%</span>
             <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60" data-transitiongoal="60" aria-valuenow="60" style="width: 60%;">
             </div>
           </div>
@@ -95,7 +95,7 @@
     </div>
   </section>
   <section class="container">
-    <h1 class="white text-center">Contact Me!</h1>
+    <h1 class="tm-color text-center">Contact Me!</h1>
     <div class="row">
       <div class="col-md-5 col-sm-12">
         <div class="contact">
@@ -156,11 +156,12 @@
 
 
 <!-- js-->
-  <script src="js/base.js"></script>
+
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.backstretch.min.js"></script>
   <script src="js/bootstrap-progressbar.min.js"></script>
+  <script src="js/base.js"></script>
   <!--js-->
   </body>
   </html>
