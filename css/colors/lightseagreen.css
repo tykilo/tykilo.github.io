@@ -106,9 +106,13 @@ h2 {
     min-height: 330px;
 }
 
-.event, .experience,
+.event,
 .contact, .message {
     margin-top: 30px;
+}
+
+.experience{
+    margin-top: 19px;
 }
 
 /* header part */
@@ -160,7 +164,7 @@ header hr {
 
 /* event */
 
-.event {
+.experience {
     background: #fff;
     box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
 }
@@ -176,7 +180,7 @@ header hr {
 
 /*  exp */
 
-.experience{
+.event{
     background: #43B6B1;
     color:#f5f5f5
 }
@@ -185,7 +189,7 @@ header hr {
     padding: 10px;
 }
 .experience ul li {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /* contact */
