@@ -7,8 +7,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-progressbar-3.3.4.min.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/colors/DarkBlue.css" id="colors-style">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/switcher.css">
+    <link rel="stylesheet" href="css/slide.css">
  	<!-- styleshhet -->
   </head>
   <body data-spy="scroll" data-target=".navbar-collapse">
@@ -19,6 +21,16 @@
     </div>
   </div>
 
+  <!-- .slideshow -->
+  <ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+    <li><span>Image 01</span><div></div></li>
+    <li><span>Image 02</span><div></div></li>
+    <li><span>Image 03</span><div></div></li>
+    <li><span>Image 04</span><div></div></li>
+    <li><span>Image 05</span><div></div></li>
+    <li><span>Image 06</span><div></div></li>
+  </ul>
+  <!-- /.slideshow -->
   <!-- header-->
   <header>
     <div class="container">
@@ -46,25 +58,23 @@
       <div class="col-md-6 col-sm-12">
         <div class="skill">
           <h2 class="tm-color text-center" id="skill-progress">技能评测</h2>
-          <strong>HTML+CSS+JS</strong>
-
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60" data-transitiongoal="60" aria-valuenow="60" style="width: 60%;">
+          <div id="test">
+            <!--<button type="button" class="btn btn-primary" id="h-center-themed-start">start</button> <button type="button" class="btn btn-danger" id="h-center-themed-reset">reset</button>-->
+            <div class="bs-example">
+              <div class="">
+                <strong>HTML+CSS+JS</strong>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60"></div></div>
+                <strong>BOOTSTRAP</strong>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="65"></div></div>
+                <strong>angularjs</strong>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60"></div></div>
+              </div>
             </div>
           </div>
-          <strong>BOOTSTRAP</strong>
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="65" data-transitiongoal="65" aria-valuenow="65" style="width: 65%;">
-            </div>
-          </div>
-          <strong>angularjs</strong>
-          <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal-backup="60" data-transitiongoal="60" aria-valuenow="60" style="width: 60%;">
-            </div>
           </div>
         </div>
       </div>
-    </div>
+</div>
   </section>
   <section class="container">
     <div class="row">
@@ -144,6 +154,72 @@
     </div>
     </div>
 </section>
+
+  <div id="custumize-style">
+    <h2>Style Selector<a href="#" class="switcher"><i class="fa fa-cogs icon-switcher"></i></a></h2>
+    <div>
+      <h3>Theme Color</h3>
+      <ul class="colors-style" id="color1">
+
+        <li><a href="#" class="gray"></a></li>
+        <li><a href="#" class="green"></a></li>
+        <li><a href="#" class="blue"></a></li>
+        <li><a href="#" class="red"></a></li>
+        <li><a href="#" class="yellow"></a></li>
+
+        <li><a href="#" class="DarkBlue"></a></li>
+        <li><a href="#" class="orange"></a></li>
+        <li><a href="#" class="rose"></a></li>
+        <li><a href="#" class="lightseagreen"></a></li>
+        <li><a href="#" class="darkolivegreen"></a></li>
+
+      </ul>
+    </div>
+    <div>
+
+      <h3 class="layouts" style="padding-top:5px">Background Style</h3>
+      <div id="show">
+
+        <div class="clean-check">
+
+          <input type="radio" id="s1" name="layout" value="bg_color" checked="checked" />
+          <label for="s1"><span></span>Color</label>
+
+          <input type="radio" id="s2" name="layout" value="bg_slider" />
+          <label for="s2"><span></span>Slider</label>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div>
+      <h3>Background Color</h3>
+      <ul class="colors-style bgsolid" id="bgsolid">
+        <li><a href="#" class="gray-bg"></a></li>
+        <li><a href="#" class="green-bg"></a></li>
+        <li><a href="#" class="blue-bg"></a></li>
+        <li><a href="#" class="red-bg"></a></li>
+        <li><a href="#" class="yellow-bg"></a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Background Image</h3>
+      <ul class="colors-style bg" id="bg">
+        <li><a href="#" class="bg1"></a></li>
+        <li><a href="#" class="bg2"></a></li>
+        <li><a href="#" class="bg3"></a></li>
+        <li><a href="#" class="bg4"></a></li>
+        <li><a href="#" class="bg5"></a></li>
+      </ul>
+    </div>
+
+    <div id="button-reset"><a href="#" class="button color blue boxed">Reset</a></div>
+  </div>
+
+
 <footer>
     <div class="container">
       <div class="row">
@@ -161,7 +237,12 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.backstretch.min.js"></script>
   <script src="js/bootstrap-progressbar.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jsSwitcher/jquery.cookie.js"></script>
+  <script src="js/jsSwitcher/switcher.js"></script>
   <script src="js/base.js"></script>
   <!--js-->
+
+
   </body>
   </html>

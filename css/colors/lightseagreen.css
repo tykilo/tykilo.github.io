@@ -1,0 +1,245 @@
+
+
+/* preloader section */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 #f9f9f9;
+}
+.sk-spinner-wordpress.sk-spinner {
+    background-color: #43B6B1;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    -webkit-animation: sk-innerCircle 1s linear infinite;
+    animation: sk-innerCircle 1s linear infinite; }
+.sk-spinner-wordpress .sk-inner-circle {
+    display: block;
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 8px;
+    top: 5px;
+    left: 5px; }
+
+@-webkit-keyframes sk-innerCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes sk-innerCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+/* main part */
+html, body {
+    margin:0;border:0;padding:0;
+    font-size:16px;
+    font-family:'Proxima';
+    overflow-x:hidden;/* ¶ÔÔªËØ½øÐÐ²Ã¼ô */
+    position: relative;
+    vertical-align: baseline;  /* ÉèÖÃÔªËØµÄ´¹Ö±¶ÔÆë·½Ê½ */
+}
+
+html {
+    -webkit-font-smoothing: antialiased; /* CSS3 ×ÖÌåÇåÎú */
+}
+
+h2 {
+    padding-bottom: 14px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.tm-border {
+    border: 5px solid #fff;
+    box-shadow: 2px 2px #000;
+}
+
+.shadow {
+    text-shadow: 1px 1px #000;
+}
+
+.tm-color {
+    color: #43B6B1;
+}
+
+.white {
+    color: #fff;
+}
+
+.intro,.skill,
+.event,.message,
+.contact, .experience {
+    padding: 40px;
+    min-height: 330px;
+}
+
+.event, .experience,
+.contact, .message {
+    margin-top: 30px;
+}
+
+/* header part */
+header {
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+
+header img {
+    display: inline-block !important;
+}
+
+header h2 {
+    padding-top: 40px;
+}
+header hr {
+    border-color: #43B6B1;
+    width: 100px;
+}
+
+/*  intro */
+.intro {
+    background: #43B6B1;
+    color:#f5f5f5
+}
+
+/* skill */
+
+.skill {
+    background: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+.skill .progress {
+    border-radius: 0px;
+    height: 20px;
+}
+
+.skill .progress-bar-info{background-color:#43B6B1;}
+
+.skill strong {
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+/* event */
+
+.event {
+    background: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+.event .event-content {
+    padding-bottom: 14px;
+}
+.event ul {
+    padding: 10px;
+}
+.event ul li {
+    padding-bottom:20px;
+}
+
+/*  exp */
+
+.experience{
+    background: #43B6B1;
+    color:#f5f5f5
+}
+
+.experience ul {
+    padding: 10px;
+}
+.experience ul li {
+    padding-bottom: 20px;
+}
+
+/* contact */
+
+.contact {
+    background: #43B6B1;
+    color:#f5f5f5
+}
+.contact ul {
+    padding: 10px;
+}
+.contact ul li {
+    padding-bottom: 10px;
+}
+
+
+/* message */
+
+.message {
+    background: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+
+.message input{
+    padding-bottom: 10px;
+    padding-right:10px;
+    margin-right: 20px;
+}
+
+/* footer */
+footer {
+    color: #f9f9f9;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+
+
+@media ( max-width: 980px ) {
+    .skill {
+        margin-top: 30px;
+    }
+}
+
+@media ( max-width: 360px ) {
+    header h1 {
+        font-size: 30px;
+    }
+    .intro h2 {
+        font-size: 24px;
+    }
+
+    .experience h4 {
+        font-size: 20px;
+    }
+}

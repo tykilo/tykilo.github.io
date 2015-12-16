@@ -1,26 +1,4 @@
-/* preloader part*/
-/*
-#preloader {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    z-index: 9999;
-}
 
-#spinner {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 50%;
-    left: 50%;
-    margin: -40px 0 0 -40px;
-    background: url(../images/spinner.gif) no-repeat;
-}
-*/
 
 /* preloader section */
 .preloader {
@@ -46,7 +24,7 @@
     background: none repeat scroll 0 0 #f9f9f9;
 }
 .sk-spinner-wordpress.sk-spinner {
-    background-color: #3366CC;
+    background-color: #496A15;
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -86,13 +64,13 @@ html, body {
     margin:0;border:0;padding:0;
     font-size:16px;
     font-family:'Proxima';
-    overflow-x:hidden;/* 对元素进行裁剪 */
+    overflow-x:hidden;/* 露脭脭陋脣脴陆酶脨脨虏脙录么 */
     position: relative;
-    vertical-align: baseline;  /* 设置元素的垂直对齐方式 */
+    vertical-align: baseline;  /* 脡猫脰脙脭陋脣脴碌脛麓鹿脰卤露脭脝毛路陆脢陆 */
 }
 
 html {
-    -webkit-font-smoothing: antialiased; /* CSS3 字体清晰 */
+    -webkit-font-smoothing: antialiased; /* CSS3 脳脰脤氓脟氓脦煤 */
 }
 
 h2 {
@@ -114,7 +92,7 @@ h2 {
 }
 
 .tm-color {
-    color: #66CCFF;
+    color: #496A15;
 }
 
 .white {
@@ -151,13 +129,13 @@ header h2 {
     padding-top: 40px;
 }
 header hr {
-    border-color: #3366CC;
+    border-color: #496A15;
     width: 100px;
 }
 
 /*  intro */
 .intro {
-    background: #3366CC;
+    background: #496A15;
     color:#f5f5f5
 }
 
@@ -171,6 +149,8 @@ header hr {
     border-radius: 0px;
     height: 20px;
 }
+
+.skill .progress-bar-info{background-color:#496A15;}
 
 .skill strong {
     display: inline-block;
@@ -197,7 +177,7 @@ header hr {
 /*  exp */
 
 .experience{
-    background: #3366CC;
+    background: #496A15;
     color:#f5f5f5
 }
 
@@ -211,7 +191,7 @@ header hr {
 /* contact */
 
 .contact {
-    background: #3366CC;
+    background: #496A15;
     color:#f5f5f5
 }
 .contact ul {
