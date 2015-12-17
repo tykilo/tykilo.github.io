@@ -1,4 +1,4 @@
-document.write("<script type='text/javascript'  src='js/jsSwitcher/jquery.cookie.js'></script>");
+document.write("<script type='text/javascript'  src='jquery.cookie.js'></script>");
 
 /*-----------------------------------------------------------------------------------
  /* Styles Switcher

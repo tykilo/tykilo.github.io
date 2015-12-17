@@ -13,21 +13,48 @@
 			offset:'85%'
 		});
 	});
-		//$('#h-center-themed-reset').click(function() {
-		//	$('#test-progress  .progress-bar').attr('data-transitiongoal', 0).progressbar({display_text: 'center'});
-		//});
-	//});
 
 
-
-/*
-	$(document).ready(function () {
-		$('.progress .progress-bar').progressbar({display_text: 'center'});
-	});
-*/
 $(window).load(function(){
 	$('.preloader').delay(1000).fadeOut("slow"); // set duration in brackets
 });
+
+
+
+	function check(){
+		var name=document.getElementById('user');//用户名
+		var yx=document.getElementById('email');
+		var content=document.getElementById('text');
+		if(name.value==""){
+			alert('请输入您的姓名');
+			document.name.focus();
+		}else if(Isyx(yx.value)){
+			alert('请输入正确的邮箱');
+			document.yx.focus();
+		}else if (content.value==""){
+			alert('请输入您的留言');
+			document.text.focus();
+		}
+		else{document.getElementById('baseform').submit();}
+	}
+
+
+
+
+function Isyx(yx){
+	var reyx= /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;//使用正则
+	return(reyx.test(yx));
+}
+
+function reset(){
+	var name=document.getElementById('user');//用户名
+	var yx=document.getElementById('email');
+	var content=document.getElementById('text');
+	name.value="";
+	yx.value="";
+	content.value="";
+}
+
 
 // HOME BACKGROUND SLIDESHOW
 /*
