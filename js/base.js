@@ -26,13 +26,13 @@ $(window).load(function(){
 		var yx=document.getElementById('email');
 		var content=document.getElementById('text');
 		if(name.value==""){
-			alert('请输入您的姓名');
+			alert('please enter your name');
 			document.name.focus();
 		}else if(Isyx(yx.value)){
-			alert('请输入正确的邮箱');
+			alert('please enter your email');
 			document.yx.focus();
 		}else if (content.value==""){
-			alert('请输入您的留言');
+			alert('please enter your message');
 			document.text.focus();
 		}
 		else{document.getElementById('baseform').submit();}
