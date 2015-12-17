@@ -87,7 +87,7 @@
             <ul class="exp-description">
               <li>对网站UI进行美化及精简</li>
               <li>设计并实现对于网站用户数据的统计</li>
-              <li><a href="share.sjtu.edu.cn" target="_blank">网址: share.sjtu.edu.cn</a> </li>
+              <li><a href="http://share.sjtu.edu.cn" target="_blank">网址: share.sjtu.edu.cn</a> </li>
             </ul>
           </div>
         </div>
@@ -109,7 +109,7 @@
   </section>
   <section class="container">
     <h1 class="tm-color text-center">Contact Me!</h1>
-    <form class="row">
+    <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="contact">
           <h2 class="text-center">联系方式</h2>
@@ -125,9 +125,8 @@
         <div class="message">
           <h2 class="tm-color text-center">Contact Now!</h2>
           <hr>
-
+          <form id="baseform">
             <form class="form-inline">
-            <div class="row">
 
               <div class="form-group ">
                 <label class="sr-only" for="user">您的姓名</label>
@@ -141,13 +140,11 @@
                   <input type="email" class="form-control" id="email" placeholder="您的邮箱">
                 </div>
               </div>
-            </div>
             </form>
           <div class="form-group">
             <label for="text" class="sr-only">您的留言</label>
             <textarea class="form-control" rows="3"  placeholder="您的留言" id="text"></textarea>
           </div>
-
         <div class="row">
           <div class="col-sm-offset-3 col-sm-1">
             <input type="reset" name="reset" value="重置" class="btn btn-danger" onclick="reset();">
@@ -156,10 +153,11 @@
             <input type="submit" name="submit" value="发送" class="btn btn-primary" onclick="check();">
           </div>
         </div>
-
+</form>
+   </div>
     </div>
     </div>
-      </form>
+      <!--</form>-->
 </section>
 
   <div id="custumize-style">

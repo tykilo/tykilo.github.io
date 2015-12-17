@@ -43,7 +43,8 @@ $(window).load(function(){
 
 function Isyx(yx){
 	var reyx= /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;//使用正则
-	return(reyx.test(yx));
+	var flag=reyx.test(yx);
+	return(flag);
 }
 
 function reset(){
